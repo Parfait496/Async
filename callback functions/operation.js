@@ -14,9 +14,13 @@ function division(num1, num2) {
     return num1 / num2;
 }
 
+function subtract(num1, num2) {
+    return num1 - num2;
+}
 console.log(calculate(10, 5, addition));
 console.log(calculate(10, 5, multiply));
 console.log(calculate(10, 5, division));
+console.log(calculate(10, 5, subtract));
 
 
 // Expected outputs:
